@@ -1,0 +1,92 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.Quotes_div {
+  height: 400px;
+  width: 700px;
+  border: 2px solid transparent;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  background-color: #4b9cfe;
+  border-radius: 10px;
+}
+.card {
+  height: 300px;
+  width: 600px;
+
+  display: flex;
+  border-radius: 10px;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+
+  box-shadow: 0px 45px 100px rgba(126, 149, 242, 0.4),
+    0 16px 40px rgba(7, 17, 32, 0.4);
+}
+.card-subtitle {
+  margin-top: 30px;
+  text-align: right;
+}
+.textContent {
+  margin-top: 50px;
+  margin-left: 15px;
+}
+.card-title {
+  font-size: 30px;
+  font-family: "Dancing Script", cursive;
+  font-weight: bold;
+}
+.btns {
+  margin-top: 20px;
+}
+.btn {
+  margin-left: 15px;
+}
+.btn:hover {
+  scale: 1.2;
+}
+@media (max-width: 767px) {
+  .Quotes_div {
+    height: 500px;
+    width: 400px;
+  }
+  .card {
+    height: 400px;
+    width: 300px;
+  }
+}
+@media (max-width: 420px) {
+    .Quotes_div {
+      height: 500px;
+      width: 360px;
+    }
+    .card {
+      height: 400px;
+      width: 260px;
+    }
+
+    .btn {
+     
+       font-size: small;
+      }
+  }
+  @media (max-width: 280px) {
+    .Quotes_div {
+      height: 500px;
+      width: 280px;
+    }
+    .card {
+      height: 400px;
+      width: 240px;
+    }
+
+    .btn {
+      
+     font-size: xx-small;
+      }
+  }
+
